@@ -1,0 +1,42 @@
+body {
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(47, 188, 156);
+}
+.navbar {
+    margin-bottom: 0;
+    padding: 20px 15px;
+    background-color: rgb(44, 63, 81);
+    border: 1px solid rgb(44, 63, 81);
+    border-radius: 0;
+}
+.navbar-dfault {
+    color: white;
+}
+
+.jumbotron img {
+    height: 250px;
+    margin-top: 75px;
+}
+
+.jumbotron i {
+    font-size: 32px;
+}
+
+.line {
+    max-width: 7rem;
+    height: 3px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.navbar-nav li a  {
+    font-weight: 700;
+}
