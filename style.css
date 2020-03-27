@@ -43,11 +43,18 @@ body {
 
 #bottone-bianco {
     background-color: rgb(47, 188, 156);
-    border-color: rgb(47, 188, 156);
+    border:0;
+    position: relative;
 }
+
+#bottone-bianco:hover {
+    background-color: #148f77;
+}
+
 .stella {
     position: relative;
 }
+
 .divider1 {
     position: absolute;
     height: 3px;
@@ -74,6 +81,7 @@ body {
 .last-jumbotron-element {
     margin-bottom: 60px;
 }
+
 @media screen and (max-width:767px) {
     #bottone-bianco {
         max-width: 80px;
