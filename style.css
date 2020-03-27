@@ -1,42 +1,81 @@
 body {
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
-.jumbotron {
+.jumbo-verde {
     background-color: rgb(47, 188, 156);
 }
-.navbar {
+
+#header {
     margin-bottom: 0;
     padding: 20px 15px;
     background-color: rgb(44, 63, 81);
     border: 1px solid rgb(44, 63, 81);
     border-radius: 0;
 }
-.navbar-dfault {
-    color: white;
-}
 
 .jumbotron img {
     height: 250px;
-    margin-top: 75px;
+    margin-top: 60px;
 }
 
 .jumbotron i {
     font-size: 32px;
 }
 
-.line {
-    max-width: 7rem;
-    height: 3px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.navbar-brand {
+.logo {
     font-weight: 700;
     font-size: 26px;
 }
 
-.navbar-nav li a  {
+.lista-destra li a  {
     font-weight: 700;
+}
+
+.lista-destra li> a.bianco, #brand-custom.bianco  {
+    color: white;
+}
+
+.lista-destra li> a.bianco:hover {
+    color: rgb(47, 188, 156);
+}
+
+#bottone-bianco {
+    background-color: rgb(47, 188, 156);
+    border-color: rgb(47, 188, 156);
+}
+.stella {
+    position: relative;
+}
+.divider1 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    left: -120px;
+    margin-right: 20px;
+}
+
+.divider2 {
+    position: absolute;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 150px;
+    min-width: 100px;
+    top: 50%;
+    margin-left: 55px;
+}
+
+.last-jumbotron-element {
+    margin-bottom: 60px;
+}
+@media screen and (max-width:767px) {
+    #bottone-bianco {
+        max-width: 80px;
+    }
 }
