@@ -11,6 +11,7 @@ body {
     position: relative;
     width: 250px;
     padding: 20px 0;
+    margin-bottom: 10px;
 }
 
 .divider::before,
@@ -32,7 +33,9 @@ body {
 }
 
 #portfolio .divider::before,
-#portfolio .divider::after {
+#portfolio .divider::after,
+#contact .divider::before,
+#contact .divider::after {
     background-color: black;
 }
 
@@ -176,6 +179,40 @@ section .container .row div > h2 {
     padding: 15px 25px;
     margin-top: 20px;
 }
+
+/* contact section style */
+
+#contact {
+    color: black
+}
+.form-group {
+    border-top: 1px solid lightgrey;
+}
+
+.form-group:first-of-type {
+    border-top: 0;
+}
+
+.form-control  {
+    border: 0;
+    font-size: 24px;
+    padding: 30px 5px;
+    box-shadow: 0 0 0 white;
+}
+
+.form-group button {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: rgb(47, 188, 156);
+    color: white;
+    font-size: 24px;
+}
+.form-group button:hover {
+    background-color: #148f77;
+    color: white;
+}
+
+
 @media screen and (max-width:767px) {
     #bottone-bianco {
         max-width: 80px;
