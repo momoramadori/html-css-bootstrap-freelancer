@@ -281,6 +281,9 @@ footer {
     color: rgb(26, 37, 47);
 }
 
+#footer1 .row > div {
+    margin-bottom: 10px;
+}
 #footer2 {
     background-color: rgb(26, 37, 47);
     padding-top: 15px;
